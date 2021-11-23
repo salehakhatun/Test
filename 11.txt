@@ -1,0 +1,32 @@
+If the value in column 1 is a multiple of both 3 and 5, print "Fizzbuzz" in column 2.
+
+
+If the value in column 1 is a multiple of just 3, print "Fizz" in column 2.
+
+
+If the value in column 1 is a multiple of just 5, print "Buzz" in column 2.
+
+
+
+
+
+=IF($A2<35,"Fail", "Pass")
+
+
+$A$2:$A$70926=$I5,$B$2:$B$70926
+
+++++++++++++++++++++++++++++
+
+
+# Convert the integer years into a string and prints
+print("My name is "+Name+ " I am from "+Country+" i am "+str(Age)+" years old and getting $"+str(Hourly_wage)+" pear hour")
+
+
+
+# An f-string accepts all data types without conversion
+print(f"My daily wages  ${daily_wage} i like {Satisfied}")
+
+git add -A
+git commit -a "....."
+git push
+
